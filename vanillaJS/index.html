@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
+        <meta name="description" content="A simple image search web application">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./skeleton.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+      <header>
+        <h1>
+          Smile Image Search   
+        </h1>
+        <h2>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</h2>
+        </header>
+        <form onsubmit="handleSubmit()">
+            <label for="Searching">Enter Search Keywords </label>
+            <input class="u-full-width"  placeholder="banana, ..." type="text" id="searchTerm" name="searchTerm">
+            <input type="submit" id="submit" class = "button-primary" value="Search">
+        </form>
+        <span id="totalHits"></span>
+        <img src="loading.gif" id="loading">
+        <section class="images"></section>
+        <script src="./main.js"></script>
+    </body>
+</html>
