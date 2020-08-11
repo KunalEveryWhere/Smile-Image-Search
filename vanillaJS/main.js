@@ -1,5 +1,5 @@
 const base_API_URL =
-  "https://pixabay.com/api/?key=10144194-4563e940d339119e278421d54&q=";
+  "https://pixabay.com/api/?key=ENTERYOURAPIKEYHERE&q=";
 
 let imagesSection = document.querySelector("section");
 let loading = document.getElementById("loading");
